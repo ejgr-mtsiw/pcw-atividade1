@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+    font-size: 10px;
+    font-family: "Noto Serif", "Liberation Serif", "Times New Roman", serif;
+    width: 660px;
+    margin: 65px auto;
+}
+
+p {
+    text-indent: 11px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: inside none;
+}
+
+li {
+    text-indent: 11px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.despacho {
+    column-count: 2;
+    column-gap: 23px;
+}
+
+.despacho > h1,
+.anexo > h1 {
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.autor-nome {
+    font-style: italic;
+}
+
+.anexo {
+    counter-reset: capitulo-counter;
+}
+
+.capitulo {
+    counter-reset: seccao-counter;
+}
+
+.capitulo > .ordem {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.4em;
+    margin: 20px 0 10px 0;
+}
+
+.capitulo > .ordem::after {
+    content: "\000A0" counter(capitulo-counter, upper-roman);
+    counter-increment: capitulo-counter;
+}
+
+.capitulo > h2,
+.seccao > h2 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.seccao {
+    counter-reset: artigo-counter;
+}
+
+.seccao > .ordem {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.3em;
+    margin: 20px 0 10px 0;
+}
+
+.seccao > .ordem::after {
+    content: "\000A0" counter(seccao-counter, upper-roman);
+    counter-increment: seccao-counter;
+}
+
+.artigo > .ordem {
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.artigo > .ordem::after {
+    content: "\000A0" counter(artigo-counter, decimal) ".º";
+    counter-increment: artigo-counter;
+}
+
+.artigo > h2 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.pontos {
+    list-style: none inside;
+    counter-reset: ponto-counter;
+}
+
+.ponto::before {
+    counter-increment: ponto-counter;
+    content: counter(ponto-counter, decimal) "\000A0—"
+}
+
+.alineas {
+    margin: 6px 0;
+    list-style: none inside;
+    counter-reset: alinea-counter;
+}
+
+.alinea::before {
+    counter-increment: alinea-counter;
+    content: counter(alinea-counter, lower-alpha) ")";
+    font-style: italic;
+}
+

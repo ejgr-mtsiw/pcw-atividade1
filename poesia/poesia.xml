@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="poesia.xsl" ?>
+<seccao label="VII">
+    <poema>
+        <titulo>A Noiva</titulo>
+        <versos>    
+            <verso>Ja no primeiro oriente desfolhando</verso>
+            <verso>Suas rosas vem a aurora;</verso>
+            <verso>Ja pouco a pouco o manto desdobrando</verso>
+            <verso>Da névoa que evapora,</verso>
+            <verso>Vem o sol pelas altas cumiadas</verso>
+            <verso>Dos elevados montes</verso>
+            <verso>Acordando hervas, flores esmaltadas,</verso>
+            <verso>E alvejando nas fontes.</verso>
+            <verso>Mais galas não trajou nem mais belleza</verso>
+            <verso>Nas vodas de Pelleu </verso>
+            <verso>Á voz de Jove toda a natureza,</verso>
+            <verso>Quando tredo escondeu</verso>
+            <verso>No pomo tam formoso e cubiçado</verso>
+            <verso>O malfazejo nume</verso>
+            <verso>Faíscas d'esse fogo que, ateado</verso>
+            <verso>Em chammas de atro lume,</verso>
+            <verso>Da miseranda Troia, que abrazava,</verso>
+            <verso>Para a Grécia lavrou,</verso>
+            <verso>E os dilatados campos lhe assolava,</verso>
+            <verso>As cidades lhe ermou...</verso>
+            <verso>Oh! não vem esta aurora assim pejada</verso>
+            <verso>De tão negro porvir:</verso>
+            <verso>Que o pomo da belleza disputada</verso>
+            <verso>Quem n'o hade aqui renhir</verso>
+            <verso>Co'a a linda noiva que hoje amor coroa?</verso>
+            <verso>Contenda, bem n'a houvera</verso>
+            <verso>Entre os que invejam Páris e .. e aguilhoa</verso>
+            <verso>O ciúme que lacera:</verso>
+            <verso>Mas Hymeneu e Amor - rara allíança!</verso>
+            <verso>Lhes fecharam as portas da esperança. </verso>
+        </versos>
+        <publicacao>
+            <local>Coimbra</local>
+            <data>1818-05-15</data>
+        </publicacao>
+    </poema>
+</seccao>

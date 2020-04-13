@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+    width: 400px;
+    margin: 200px auto 50px;
+    font-family: "Noto Serif", "Liberation Serif", "Times New Roman", serif;
+	background-color: #e9debf;
+}
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+	margin: 0;
+  	padding: 0;
+}
+
+p.epigraph {
+	text-indent: -20px;
+	font-size: 0.9em;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+p.first-content-text::first-letter {
+	font-size: 6.4em;
+	float: left;
+	line-height: 0.7em;
+}
+
+.first-word {
+  text-transform: uppercase;
+}
+.content-text {
+  text-indent: 20px;
+}
+
+.section-label {
+	display: block;
+	clear: both;
+	margin-bottom: 20px;
+}

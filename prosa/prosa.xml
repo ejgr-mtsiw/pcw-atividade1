@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0" ?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron" ?>
+<?xml-stylesheet type="text/xsl" href="prosa.xsl" ?>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0">
+    <title>Introdução</title>
+    <section label="I">
+        <title>Eça de Queiroz</title>
+        <epigraph>
+            <para>
+                Definição do seu génio – Influência exercida fora de
+                Portugal – Seu latinismo – Camilo e Queiroz –
+                Acusações que lhe fazem e apologiado acusado –
+                Plagiador – Ofensor da moral burguesa – Dissolvente
+                social – Queiroz e os pedagogos – Significação moral,
+                positiva e edificante, da sua vida e das suas obras.
+            </para>
+        </epigraph>
+        <para>
+            Devemos, todos nós, Portugueses, a maior veneração à bela
+            memória de Eça de Queiroz, um dos mais admiráveis artistas
+            da palavra escrita que o século XIX viu nascer e florescer
+            em todo o mundo.
+        </para>
+        <para>
+            Êste grande homem retemperou a língua nacional, pondo-a em
+            dia com as necessidades da expressão e do gôsto modernos,
+            com o que contribuiu, mais que ninguém na sua época, para a
+            cobrir de prestígio entre as gerações que vieram depois dêle,
+            tonificando-a assim para resistir mais duravelmente à acção
+            combinada e hostil do tempo e do espaço, que trabalham juntos
+            a separar o seu velho tronco em dois ramos divergentes:
+            o europeu e o americano.
+        </para>
+        <para>
+            Além disto, artista genial, probo e completo
+        </para>
+    </section>
+</chapter>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+    font-size: 10px;
+    font-family: "Noto Serif", "Liberation Serif", "Times New Roman", serif;
+    width: 660px;
+    margin: 65px auto;
+}
+
+p {
+    text-indent: 11px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: inside none;
+}
+
+li {
+    text-indent: 11px;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.despacho {
+    column-count: 2;
+    column-gap: 23px;
+}
+
+.despacho > h1,
+.anexo > h1 {
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.autor-nome {
+    font-style: italic;
+}
+
+.capitulo > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.4em;
+    margin: 20px 0 10px 0;
+}
+
+.capitulo > h2,
+.seccao > h2 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.seccao > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.3em;
+    margin: 20px 0 10px 0;
+}
+
+.artigo > h1 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.artigo > h2 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+.alineas {
+    margin: 6px 0;
+}
+
+.alinea-letra {
+    font-style: italic;
+}
